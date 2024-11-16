@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-c3-devkitm-1", "id": "esp1", "top": 118.9, "left": 10, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 60, "left": 134.6, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot2", "top": 60, "left": 317, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot3", "top": 60, "left": 403.4, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot4", "top": 60, "left": 230.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp1:GND.9", "pot1:GND", "black", [ "h0" ] ],
+    [ "pot4:GND", "esp1:GND.9", "black", [ "v38.4", "h-96" ] ],
+    [ "esp1:GND.9", "pot3:GND", "black", [ "h0" ] ],
+    [ "esp1:GND.9", "pot2:GND", "black", [ "h0" ] ],
+    [ "esp1:5V.1", "pot1:VCC", "red", [ "h0" ] ],
+    [ "esp1:5V.1", "pot4:VCC", "red", [ "h0" ] ],
+    [ "esp1:5V.1", "pot2:VCC", "red", [ "h0" ] ],
+    [ "esp1:5V.1", "pot3:VCC", "red", [ "h0" ] ],
+    [ "esp1:7", "pot1:SIG", "green", [ "h0" ] ],
+    [ "esp1:6", "pot4:SIG", "green", [ "h0" ] ],
+    [ "esp1:5", "pot2:SIG", "green", [ "h0" ] ],
+    [ "esp1:4", "pot3:SIG", "green", [ "v-0.3", "h339.8" ] ]
+  ],
+  "dependencies": {}
+}
