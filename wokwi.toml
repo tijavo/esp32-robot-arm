@@ -1,4 +1,0 @@
-[wokwi]
-version = 1
-firmware = 'remote-potentiometer/.pio/build/lolin_c3_mini/firmware.bin'
-elf = 'remote-potentiometer/.pio/build/lolin_c3_mini/firmware.elf'
