@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 uint16_t* analogValues; 
-uint8_t POTIENTIOMETER_PINS[] = {0,1,2,3};
+uint8_t POTIENTIOMETER_PINS[] = {4,1,2,3};
 
 void setup() {
   Serial.begin(9600);
